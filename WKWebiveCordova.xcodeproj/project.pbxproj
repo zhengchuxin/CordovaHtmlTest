@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CDB7EE24ADBB33005B8DAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB7ED24ADBB33005B8DAB /* AppDelegate.m */; };
+		18CDB7F124ADBB33005B8DAB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB7F024ADBB33005B8DAB /* SceneDelegate.m */; };
+		18CDB7F424ADBB33005B8DAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB7F324ADBB33005B8DAB /* ViewController.m */; };
+		18CDB7F724ADBB33005B8DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CDB7F524ADBB33005B8DAB /* Main.storyboard */; };
+		18CDB7F924ADBB37005B8DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CDB7F824ADBB37005B8DAB /* Assets.xcassets */; };
+		18CDB7FC24ADBB37005B8DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CDB7FA24ADBB37005B8DAB /* LaunchScreen.storyboard */; };
+		18CDB7FF24ADBB37005B8DAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB7FE24ADBB37005B8DAB /* main.m */; };
+		18CDB80924ADBB38005B8DAB /* WKWebiveCordovaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB80824ADBB38005B8DAB /* WKWebiveCordovaTests.m */; };
+		18CDB81424ADBB38005B8DAB /* WKWebiveCordovaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB81324ADBB38005B8DAB /* WKWebiveCordovaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CDB80524ADBB38005B8DAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CDB7E124ADBB33005B8DAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CDB7E824ADBB33005B8DAB;
+			remoteInfo = WKWebiveCordova;
+		};
+		18CDB81024ADBB38005B8DAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CDB7E124ADBB33005B8DAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CDB7E824ADBB33005B8DAB;
+			remoteInfo = WKWebiveCordova;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CDB7E924ADBB33005B8DAB /* WKWebiveCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebiveCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CDB7EC24ADBB33005B8DAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CDB7ED24ADBB33005B8DAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CDB7EF24ADBB33005B8DAB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		18CDB7F024ADBB33005B8DAB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		18CDB7F224ADBB33005B8DAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18CDB7F324ADBB33005B8DAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18CDB7F624ADBB33005B8DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CDB7F824ADBB37005B8DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CDB7FB24ADBB37005B8DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CDB7FD24ADBB37005B8DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CDB7FE24ADBB37005B8DAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CDB80424ADBB38005B8DAB /* WKWebiveCordovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebiveCordovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CDB80824ADBB38005B8DAB /* WKWebiveCordovaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebiveCordovaTests.m; sourceTree = "<group>"; };
+		18CDB80A24ADBB38005B8DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CDB80F24ADBB38005B8DAB /* WKWebiveCordovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebiveCordovaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CDB81324ADBB38005B8DAB /* WKWebiveCordovaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebiveCordovaUITests.m; sourceTree = "<group>"; };
+		18CDB81524ADBB38005B8DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CDB7E624ADBB33005B8DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDB80124ADBB38005B8DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDB80C24ADBB38005B8DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CDB7E024ADBB33005B8DAB = {
+			isa = PBXGroup;
+			children = (
+				18CDB7EB24ADBB33005B8DAB /* WKWebiveCordova */,
+				18CDB80724ADBB38005B8DAB /* WKWebiveCordovaTests */,
+				18CDB81224ADBB38005B8DAB /* WKWebiveCordovaUITests */,
+				18CDB7EA24ADBB33005B8DAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CDB7EA24ADBB33005B8DAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CDB7E924ADBB33005B8DAB /* WKWebiveCordova.app */,
+				18CDB80424ADBB38005B8DAB /* WKWebiveCordovaTests.xctest */,
+				18CDB80F24ADBB38005B8DAB /* WKWebiveCordovaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CDB7EB24ADBB33005B8DAB /* WKWebiveCordova */ = {
+			isa = PBXGroup;
+			children = (
+				18CDB7EC24ADBB33005B8DAB /* AppDelegate.h */,
+				18CDB7ED24ADBB33005B8DAB /* AppDelegate.m */,
+				18CDB7EF24ADBB33005B8DAB /* SceneDelegate.h */,
+				18CDB7F024ADBB33005B8DAB /* SceneDelegate.m */,
+				18CDB7F224ADBB33005B8DAB /* ViewController.h */,
+				18CDB7F324ADBB33005B8DAB /* ViewController.m */,
+				18CDB7F524ADBB33005B8DAB /* Main.storyboard */,
+				18CDB7F824ADBB37005B8DAB /* Assets.xcassets */,
+				18CDB7FA24ADBB37005B8DAB /* LaunchScreen.storyboard */,
+				18CDB7FD24ADBB37005B8DAB /* Info.plist */,
+				18CDB7FE24ADBB37005B8DAB /* main.m */,
+			);
+			path = WKWebiveCordova;
+			sourceTree = "<group>";
+		};
+		18CDB80724ADBB38005B8DAB /* WKWebiveCordovaTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CDB80824ADBB38005B8DAB /* WKWebiveCordovaTests.m */,
+				18CDB80A24ADBB38005B8DAB /* Info.plist */,
+			);
+			path = WKWebiveCordovaTests;
+			sourceTree = "<group>";
+		};
+		18CDB81224ADBB38005B8DAB /* WKWebiveCordovaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CDB81324ADBB38005B8DAB /* WKWebiveCordovaUITests.m */,
+				18CDB81524ADBB38005B8DAB /* Info.plist */,
+			);
+			path = WKWebiveCordovaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CDB7E824ADBB33005B8DAB /* WKWebiveCordova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CDB81824ADBB38005B8DAB /* Build configuration list for PBXNativeTarget "WKWebiveCordova" */;
+			buildPhases = (
+				18CDB7E524ADBB33005B8DAB /* Sources */,
+				18CDB7E624ADBB33005B8DAB /* Frameworks */,
+				18CDB7E724ADBB33005B8DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKWebiveCordova;
+			productName = WKWebiveCordova;
+			productReference = 18CDB7E924ADBB33005B8DAB /* WKWebiveCordova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CDB80324ADBB38005B8DAB /* WKWebiveCordovaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CDB81B24ADBB38005B8DAB /* Build configuration list for PBXNativeTarget "WKWebiveCordovaTests" */;
+			buildPhases = (
+				18CDB80024ADBB38005B8DAB /* Sources */,
+				18CDB80124ADBB38005B8DAB /* Frameworks */,
+				18CDB80224ADBB38005B8DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CDB80624ADBB38005B8DAB /* PBXTargetDependency */,
+			);
+			name = WKWebiveCordovaTests;
+			productName = WKWebiveCordovaTests;
+			productReference = 18CDB80424ADBB38005B8DAB /* WKWebiveCordovaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CDB80E24ADBB38005B8DAB /* WKWebiveCordovaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CDB81E24ADBB38005B8DAB /* Build configuration list for PBXNativeTarget "WKWebiveCordovaUITests" */;
+			buildPhases = (
+				18CDB80B24ADBB38005B8DAB /* Sources */,
+				18CDB80C24ADBB38005B8DAB /* Frameworks */,
+				18CDB80D24ADBB38005B8DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CDB81124ADBB38005B8DAB /* PBXTargetDependency */,
+			);
+			name = WKWebiveCordovaUITests;
+			productName = WKWebiveCordovaUITests;
+			productReference = 18CDB80F24ADBB38005B8DAB /* WKWebiveCordovaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CDB7E124ADBB33005B8DAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18CDB7E824ADBB33005B8DAB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					18CDB80324ADBB38005B8DAB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18CDB7E824ADBB33005B8DAB;
+					};
+					18CDB80E24ADBB38005B8DAB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18CDB7E824ADBB33005B8DAB;
+					};
+				};
+			};
+			buildConfigurationList = 18CDB7E424ADBB33005B8DAB /* Build configuration list for PBXProject "WKWebiveCordova" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CDB7E024ADBB33005B8DAB;
+			productRefGroup = 18CDB7EA24ADBB33005B8DAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CDB7E824ADBB33005B8DAB /* WKWebiveCordova */,
+				18CDB80324ADBB38005B8DAB /* WKWebiveCordovaTests */,
+				18CDB80E24ADBB38005B8DAB /* WKWebiveCordovaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CDB7E724ADBB33005B8DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDB7FC24ADBB37005B8DAB /* LaunchScreen.storyboard in Resources */,
+				18CDB7F924ADBB37005B8DAB /* Assets.xcassets in Resources */,
+				18CDB7F724ADBB33005B8DAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDB80224ADBB38005B8DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDB80D24ADBB38005B8DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CDB7E524ADBB33005B8DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDB7F424ADBB33005B8DAB /* ViewController.m in Sources */,
+				18CDB7EE24ADBB33005B8DAB /* AppDelegate.m in Sources */,
+				18CDB7FF24ADBB37005B8DAB /* main.m in Sources */,
+				18CDB7F124ADBB33005B8DAB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDB80024ADBB38005B8DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDB80924ADBB38005B8DAB /* WKWebiveCordovaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDB80B24ADBB38005B8DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDB81424ADBB38005B8DAB /* WKWebiveCordovaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CDB80624ADBB38005B8DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CDB7E824ADBB33005B8DAB /* WKWebiveCordova */;
+			targetProxy = 18CDB80524ADBB38005B8DAB /* PBXContainerItemProxy */;
+		};
+		18CDB81124ADBB38005B8DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CDB7E824ADBB33005B8DAB /* WKWebiveCordova */;
+			targetProxy = 18CDB81024ADBB38005B8DAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CDB7F524ADBB33005B8DAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CDB7F624ADBB33005B8DAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CDB7FA24ADBB37005B8DAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CDB7FB24ADBB37005B8DAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CDB81624ADBB38005B8DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18CDB81724ADBB38005B8DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CDB81924ADBB38005B8DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WKWebiveCordova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.WKWebiveCordova";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CDB81A24ADBB38005B8DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WKWebiveCordova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.WKWebiveCordova";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18CDB81C24ADBB38005B8DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WKWebiveCordovaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.WKWebiveCordovaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebiveCordova.app/WKWebiveCordova";
+			};
+			name = Debug;
+		};
+		18CDB81D24ADBB38005B8DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WKWebiveCordovaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.WKWebiveCordovaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebiveCordova.app/WKWebiveCordova";
+			};
+			name = Release;
+		};
+		18CDB81F24ADBB38005B8DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WKWebiveCordovaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.WKWebiveCordovaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WKWebiveCordova;
+			};
+			name = Debug;
+		};
+		18CDB82024ADBB38005B8DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WKWebiveCordovaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.WKWebiveCordovaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WKWebiveCordova;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CDB7E424ADBB33005B8DAB /* Build configuration list for PBXProject "WKWebiveCordova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDB81624ADBB38005B8DAB /* Debug */,
+				18CDB81724ADBB38005B8DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CDB81824ADBB38005B8DAB /* Build configuration list for PBXNativeTarget "WKWebiveCordova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDB81924ADBB38005B8DAB /* Debug */,
+				18CDB81A24ADBB38005B8DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CDB81B24ADBB38005B8DAB /* Build configuration list for PBXNativeTarget "WKWebiveCordovaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDB81C24ADBB38005B8DAB /* Debug */,
+				18CDB81D24ADBB38005B8DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CDB81E24ADBB38005B8DAB /* Build configuration list for PBXNativeTarget "WKWebiveCordovaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDB81F24ADBB38005B8DAB /* Debug */,
+				18CDB82024ADBB38005B8DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CDB7E124ADBB33005B8DAB /* Project object */;
+}

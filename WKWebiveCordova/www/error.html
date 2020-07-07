@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>error</title>
+  <style>
+      *,
+      *::before,
+      *::after {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          /*点击高亮效果的清除*/
+          /* tap-highlight-color: transparent; */
+          -webkit-tap-highlight-color: transparent;
+      }
+      html{
+         font-size: 100px;
+      }
+      body {
+          font-size: 0.2rem;
+          font-family: "Microsoft YaHei", sans-serif;
+          color: #333;
+          /* background-color: rgb(240, 240, 240); */
+      }
+
+      ul,ol {
+          list-style: none;
+      }
+      button{
+        outline: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+      }
+      .content{
+        padding: 0.2rem;
+        text-align: center;
+      }
+      .head{
+         /* margin-top: 0.3rem; */
+      }
+      .head img{
+        width: 60%;
+
+      }
+      .head p{
+        font-size: 0.3rem;
+        font-weight: bold;
+        color: rgb(114, 114, 114);
+        font-family: "STFangsong";
+      }
+      .line {
+        display: block;
+        margin: 0.1rem auto;
+        width: 80%;
+        height: 0.005rem;
+        background-color: black;
+      }
+
+      .message {
+        text-align: left;
+        vertical-align: top;
+        font-size: 0.16rem;
+      }
+      .message span{
+        display:inline-block;
+        color: rgb(118, 118, 118);
+        vertical-align: top;
+      }
+      .message ul{
+        display:inline-block;
+        color: rgb(118, 118, 118);
+        margin-left: -0.05rem;
+      }
+      .message ul li:before{
+            content: "\2022";     
+            color: rgb(184, 184, 184);       
+            font-size: 0.16rem; 
+            margin-right: 0.05rem;
+       }
+       .bottom { 
+         /* font-size: 0.16rem;  */
+         margin-top: 0.2rem;
+       }
+       .refresh-btn{
+          font-size: 0.16rem; 
+          color: rgb(118, 118, 118);
+          background-color: white;
+          width: 1rem;
+          height: 0.4rem;
+          border: 0.01rem solid rgb(184, 184, 184);
+          border-radius: 0.05rem;
+          margin-right: 0.2rem;
+
+       }
+       .refresh-btn:before{
+         content: "";
+         background: url('./images/error_reload.png') no-repeat;
+         display: inline-block;
+         width: 0.18rem;
+         height: 0.18rem;
+         background-size: 100%;
+         vertical-align: middle;
+         margin-right: 0.03rem;
+       }
+       .return-btn{
+          font-size: 0.16rem; 
+          color: rgb(118, 118, 118);
+          background-color: white;
+          width: 1rem;
+          height: 0.4rem;
+          border: 0.01rem solid rgb(184, 184, 184);
+           border-radius: 0.05rem;
+       }
+       .return-btn:before{
+         content: "";
+         background: url('./images/error_back.png') no-repeat;
+         display: inline-block;
+         width: 0.18rem;
+         height: 0.18rem;
+         background-size: 100%;
+         vertical-align: middle;
+         margin-right: 0.03rem;
+       }
+  </style>
+</head>
+<body>
+   <div class="content">
+       <div class="head">
+          <img src="./images/error_background.png" alt="">
+          <p>哎呀，出错了!</p>
+          <sapn class="line"></span>
+       </div>
+       <div class="message">
+         <span>可能原因：</span>
+          <ul>
+              <li>网络信号弱</li>
+              <li>网址不正确</li>
+              <li>找不到请求页面</li>
+          </ul>
+       </div>
+       <div class="bottom">
+          <button class="refresh-btn" id="refresh_btn">刷新</button>
+          <button class="return-btn" id="return_btn" style="display:none">返回</button>
+       </div>
+   </div>
+</body>
+<script type="text/javascript" src="./platform/common/loader.js"></script>
+<script type="text/javascript">
+    var loadList = [];
+    var u = navigator.userAgent;
+    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+    var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+    //app内部
+    if(u.indexOf("_hsApp_") != -1 ){
+        var cordovaURL = './platform/android/cordova.js';
+        if (isiOS) {
+            cordovaURL = './platform/ios/cordova.js';
+        }
+        loadList.push(cordovaURL);
+    }
+    Loader.load(loadList);
+</script>
+<script >
+  window.onload = function () {
+   //刷新
+   document.getElementById("refresh_btn").onclick = function(){
+     Cordova.exec(reloadErrorUrl, null, "GYConsumerPlugin", "networkErrorRefresh");
+   }
+   //返回
+   document.getElementById("return_btn").onclick = function () {
+        Cordova.exec(null, null, "GYConsumerPlugin", "hasGoBack");
+    }
+   function reloadErrorUrl(errorUrl){
+       window.location.replace(errorUrl);
+   }
+  };
+  // 当可以返回时，原生代码调用该函数
+  function showBackBtn(){
+       document.getElementById("return_btn").style.display="";
+   }
+</script>
+</html>

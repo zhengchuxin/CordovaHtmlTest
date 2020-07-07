@@ -37,29 +37,5 @@ function isHsApp(){
  */
 function getAppScheme(){
     var u = navigator.userAgent;
-   //互生：
-    if(u.indexOf("com.gy.amobile.person") != -1 || u.indexOf("com.hsxt.hsxt") != -1){
-        return "hsxt_hsxtpersoniosPay";
-    }
-    //和睦社区：
-    if(u.indexOf("com.hmsqw.customer") != -1){
-        return "hmsq_hmsqwPay";
-    }
-    //农创品牌：
-    if(u.indexOf("com.wncpp.customer") != -1){
-        return "ncpp_wncppPay";
-    }
-    //正道品牌：
-    if(u.indexOf("com.zhdpp.customer") != -1){
-        return "zhdpp_zhdppPay";
-    }
-   //相通网络：
-    if(u.indexOf("net.xt.android") != -1 || u.indexOf("net.xt.ios") != -1){
-        return "xtnet_xtPay";
-    }
-
-    //互生活：
-    if(u.indexOf("com.hslife.customer") != -1 || u.indexOf("cn.hslife.customer") != -1){
-        return "hslife_hslifePay";
-    }
+    return "xxxx";
 }

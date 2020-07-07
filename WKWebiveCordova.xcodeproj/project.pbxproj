@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181471A424B31BBD006C6476 /* MyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 181471A324B31BBD006C6476 /* MyPlugin.m */; };
 		18CDB7EE24ADBB33005B8DAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB7ED24ADBB33005B8DAB /* AppDelegate.m */; };
 		18CDB7F124ADBB33005B8DAB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB7F024ADBB33005B8DAB /* SceneDelegate.m */; };
 		18CDB7F424ADBB33005B8DAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB7F324ADBB33005B8DAB /* ViewController.m */; };
@@ -16,6 +17,10 @@
 		18CDB7FF24ADBB37005B8DAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB7FE24ADBB37005B8DAB /* main.m */; };
 		18CDB80924ADBB38005B8DAB /* WKWebiveCordovaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB80824ADBB38005B8DAB /* WKWebiveCordovaTests.m */; };
 		18CDB81424ADBB38005B8DAB /* WKWebiveCordovaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB81324ADBB38005B8DAB /* WKWebiveCordovaUITests.m */; };
+		18CDB83B24B1B75E005B8DAB /* www in Resources */ = {isa = PBXBuildFile; fileRef = 18CDB83A24B1B75E005B8DAB /* www */; };
+		18CDB83E24B1BF55005B8DAB /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 18CDB83D24B1BF55005B8DAB /* config.xml */; };
+		18CDB84B24B221CC005B8DAB /* WKWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDB84A24B221CC005B8DAB /* WKWebview.m */; };
+		715EFDE6D0BE2207404E4FA8 /* libPods-WKWebiveCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEB1531594E04EF3130C3CF /* libPods-WKWebiveCordova.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181471A224B31BBD006C6476 /* MyPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPlugin.h; sourceTree = "<group>"; };
+		181471A324B31BBD006C6476 /* MyPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPlugin.m; sourceTree = "<group>"; };
 		18CDB7E924ADBB33005B8DAB /* WKWebiveCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebiveCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CDB7EC24ADBB33005B8DAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18CDB7ED24ADBB33005B8DAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +61,13 @@
 		18CDB80F24ADBB38005B8DAB /* WKWebiveCordovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebiveCordovaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CDB81324ADBB38005B8DAB /* WKWebiveCordovaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebiveCordovaUITests.m; sourceTree = "<group>"; };
 		18CDB81524ADBB38005B8DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CDB83A24B1B75E005B8DAB /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		18CDB83D24B1BF55005B8DAB /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		18CDB84924B221CC005B8DAB /* WKWebview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebview.h; sourceTree = "<group>"; };
+		18CDB84A24B221CC005B8DAB /* WKWebview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebview.m; sourceTree = "<group>"; };
+		1AB9EE87F44A69CA25FC6BFB /* Pods-WKWebiveCordova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebiveCordova.debug.xcconfig"; path = "Target Support Files/Pods-WKWebiveCordova/Pods-WKWebiveCordova.debug.xcconfig"; sourceTree = "<group>"; };
+		AAF16E438E8410FCCE5820EE /* Pods-WKWebiveCordova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebiveCordova.release.xcconfig"; path = "Target Support Files/Pods-WKWebiveCordova/Pods-WKWebiveCordova.release.xcconfig"; sourceTree = "<group>"; };
+		DCEB1531594E04EF3130C3CF /* libPods-WKWebiveCordova.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKWebiveCordova.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715EFDE6D0BE2207404E4FA8 /* libPods-WKWebiveCordova.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,8 @@
 				18CDB80724ADBB38005B8DAB /* WKWebiveCordovaTests */,
 				18CDB81224ADBB38005B8DAB /* WKWebiveCordovaUITests */,
 				18CDB7EA24ADBB33005B8DAB /* Products */,
+				32A0D2B1F50BFF1314B5AD59 /* Pods */,
+				8B47B63918919060D6F7A42B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +121,8 @@
 		18CDB7EB24ADBB33005B8DAB /* WKWebiveCordova */ = {
 			isa = PBXGroup;
 			children = (
+				18CDB83D24B1BF55005B8DAB /* config.xml */,
+				18CDB83A24B1B75E005B8DAB /* www */,
 				18CDB7EC24ADBB33005B8DAB /* AppDelegate.h */,
 				18CDB7ED24ADBB33005B8DAB /* AppDelegate.m */,
 				18CDB7EF24ADBB33005B8DAB /* SceneDelegate.h */,
@@ -115,6 +134,10 @@
 				18CDB7FA24ADBB37005B8DAB /* LaunchScreen.storyboard */,
 				18CDB7FD24ADBB37005B8DAB /* Info.plist */,
 				18CDB7FE24ADBB37005B8DAB /* main.m */,
+				18CDB84924B221CC005B8DAB /* WKWebview.h */,
+				18CDB84A24B221CC005B8DAB /* WKWebview.m */,
+				181471A224B31BBD006C6476 /* MyPlugin.h */,
+				181471A324B31BBD006C6476 /* MyPlugin.m */,
 			);
 			path = WKWebiveCordova;
 			sourceTree = "<group>";
@@ -137,6 +160,23 @@
 			path = WKWebiveCordovaUITests;
 			sourceTree = "<group>";
 		};
+		32A0D2B1F50BFF1314B5AD59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AB9EE87F44A69CA25FC6BFB /* Pods-WKWebiveCordova.debug.xcconfig */,
+				AAF16E438E8410FCCE5820EE /* Pods-WKWebiveCordova.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B47B63918919060D6F7A42B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCEB1531594E04EF3130C3CF /* libPods-WKWebiveCordova.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18CDB81824ADBB38005B8DAB /* Build configuration list for PBXNativeTarget "WKWebiveCordova" */;
 			buildPhases = (
+				DA9D0B4F5A16E41BC3C4093D /* [CP] Check Pods Manifest.lock */,
 				18CDB7E524ADBB33005B8DAB /* Sources */,
 				18CDB7E624ADBB33005B8DAB /* Frameworks */,
 				18CDB7E724ADBB33005B8DAB /* Resources */,
@@ -240,9 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CDB83B24B1B75E005B8DAB /* www in Resources */,
 				18CDB7FC24ADBB37005B8DAB /* LaunchScreen.storyboard in Resources */,
 				18CDB7F924ADBB37005B8DAB /* Assets.xcassets in Resources */,
 				18CDB7F724ADBB33005B8DAB /* Main.storyboard in Resources */,
+				18CDB83E24B1BF55005B8DAB /* config.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,12 +305,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DA9D0B4F5A16E41BC3C4093D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKWebiveCordova-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18CDB7E524ADBB33005B8DAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CDB84B24B221CC005B8DAB /* WKWebview.m in Sources */,
 				18CDB7F424ADBB33005B8DAB /* ViewController.m in Sources */,
+				181471A424B31BBD006C6476 /* MyPlugin.m in Sources */,
 				18CDB7EE24ADBB33005B8DAB /* AppDelegate.m in Sources */,
 				18CDB7FF24ADBB37005B8DAB /* main.m in Sources */,
 				18CDB7F124ADBB33005B8DAB /* SceneDelegate.m in Sources */,
@@ -437,6 +507,7 @@
 		};
 		18CDB81924ADBB38005B8DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB9EE87F44A69CA25FC6BFB /* Pods-WKWebiveCordova.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +524,7 @@
 		};
 		18CDB81A24ADBB38005B8DAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF16E438E8410FCCE5820EE /* Pods-WKWebiveCordova.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

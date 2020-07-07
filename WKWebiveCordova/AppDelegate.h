@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+//https://www.geek-share.com/detail/2775482120.html
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 

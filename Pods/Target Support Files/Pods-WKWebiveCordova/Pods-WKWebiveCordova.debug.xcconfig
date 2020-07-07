@@ -1,0 +1,10 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Cordova" "${PODS_ROOT}/Headers/Public/cordova-plugin-device" "${PODS_ROOT}/Headers/Public/cordova-plugin-wkwebview-engine"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/Cordova" "${PODS_CONFIGURATION_BUILD_DIR}/cordova-plugin-device" "${PODS_CONFIGURATION_BUILD_DIR}/cordova-plugin-wkwebview-engine"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/Cordova" -isystem "${PODS_ROOT}/Headers/Public/cordova-plugin-device" -isystem "${PODS_ROOT}/Headers/Public/cordova-plugin-wkwebview-engine"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"Cordova" -l"cordova-plugin-device" -l"cordova-plugin-wkwebview-engine" -framework "AVFoundation" -framework "AssetsLibrary" -framework "CoreGraphics" -framework "CoreLocation" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
